@@ -11,23 +11,16 @@ public class Exercice15 {
 
         if ( 0 <= x && x < 3) {
             System.out.println("Muy deficiente");
-        }
-        if ( 3 <= x && x < 5) {
+        } if ( 3 <= x && x < 5) {
             System.out.println("Insuficiente");
-        }
-        if ( 5 <= x && x < 6) {
+        } if ( 5 <= x && x < 6) {
             System.out.println("Suficiente");
-        }
-        if ( 6 <= x && x < 7 ) {
+        } if ( 6 <= x && x < 7 ) {
             System.out.println("Bien");
-        }
-        if ( 7 <= x && x < 9 ) {
+        } if ( 7 <= x && x < 9 ) {
             System.out.println("Notable");
-        }
-        if ( 9 <= x && x <= 10) {
+        } if ( 9 <= x && x <= 10) {
             System.out.println("Sobresaliente");
         }
-
-
     }
 }
