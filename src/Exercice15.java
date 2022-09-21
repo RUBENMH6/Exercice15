@@ -19,7 +19,7 @@ public class Exercice15 {
             System.out.println("Bien");
         } else if ( 7 <= x && x < 9 ) {
             System.out.println("Notable");
-        } else {
+        } else if (x <= 10){
             System.out.println("Sobresaliente");
         }
     }
