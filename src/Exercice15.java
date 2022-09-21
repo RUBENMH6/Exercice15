@@ -19,7 +19,7 @@ public class Exercice15 {
             System.out.println("Bien");
         } else if ( 7 <= x && x < 9 ) {
             System.out.println("Notable");
-        } else if (x <= 10){
+        } else if (x <= 10 && (x>=0)) { //Para que no de "Sobresaliente" si metemos un numero negativo
             System.out.println("Sobresaliente");
         }
     }
