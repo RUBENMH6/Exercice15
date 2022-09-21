@@ -9,7 +9,9 @@ public class Exercice15 {
         System.out.println("Enter a note: ");
         x =input.nextInt();
 
-        if ( 0 <= x && x < 3) {
+        if (x<0 || x>10) {
+            System.out.println("Error");
+        } else if (x < 3) {
             System.out.println("Muy deficiente");
         } else if ( 3 <= x && x < 5) {
             System.out.println("Insuficiente");
@@ -19,7 +21,7 @@ public class Exercice15 {
             System.out.println("Bien");
         } else if ( 7 <= x && x < 9 ) {
             System.out.println("Notable");
-        } else if (x <= 10 && (x>=0)) { //Para que no de "Sobresaliente" si metemos un numero negativo
+        } else {
             System.out.println("Sobresaliente");
         }
     }
